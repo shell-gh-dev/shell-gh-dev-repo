@@ -3,7 +3,7 @@ machine:
     version: 2.3.2
 dependencies:
   pre:
-    - script/setup
+    - script/setup1
 test:
   override:
     - script/cibuild
