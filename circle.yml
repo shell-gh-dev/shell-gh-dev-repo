@@ -1,9 +1,9 @@
 machine:
   ruby:
-    version: 2.3.2
+    version: 2.3.6
 dependencies:
   pre:
-    - script/setup1
+    - script/setup
 test:
   override:
     - script/cibuild
